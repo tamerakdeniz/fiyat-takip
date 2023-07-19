@@ -11,7 +11,7 @@ Sonsuz bir döngü başlatılır. Her döngüde fiyatkontrol() fonksiyonu çalı
 ## Kurulum
 Bu uygulamayı çalıştırabilmek için Python 3'ün yüklü olması gerekmektedir.
 smtplib, time, requests ve beautifulsoup4 kütüphanelerini yükleyin:
-pip install smtplib time requests beautifulsoup4
+"pip install smtplib time requests beautifulsoup4"
 ## Kullanım
 Program çalıştırıldığında, Hepsiburada üzerinde izlemek istediğiniz ürünün URL'sini girin.
 Ardından, bir fiyat belirleyin. Eğer ürünün fiyatı bu değeri geçerse size e-posta ile bildirim gönderilecektir.

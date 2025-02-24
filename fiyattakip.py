@@ -23,13 +23,13 @@ def fiyatkontrol():
 		mail(title)
  
 def mail(title):
-   sender = 'tamer.akdeniz3@gmail.com'
+   sender = '********'
    reciever = input("Yönlendirmek İstediğiniz Mail Adresini Giriniz: ")
    try: 
       server = smtplib.SMTP('smtp.gmail.com',587)
       server.ehlo()
       server.starttls()
-      server.login(sender,'nqtsxkbphtigjnbd')
+      server.login(sender,'********')
       subject = 'Takip ettiginiz ' + title + ' adli urun istediginiz fiyata dustu!'
       body = subject + '\n' + 'Urun Linki: ' + url
       mailContent = f"To:{reciever}\nFrom:{sender}\nSubject:{subject}\n\n{body}"
